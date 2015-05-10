@@ -1,0 +1,52 @@
+@media only screen and (min-width : 1200px) {
+  .container {
+    width: 980px;
+  }
+}
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+a {
+  font-family: 'Lato', Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  line-height: 1em;
+}
+
+h2 {
+  font-weight: 400;
+  color: #bcbbbb;
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: 400;
+  color: #5F5F5F;
+}
+
+h4 {
+  font-weight: 700;
+  color: #5F5F5F;
+  font-size: 1em;
+}
+
+a  {
+  color: #bcbbbb;
+}
+
+hr {
+  border: 2px solid #bcbbbb !important;
+}
+/* DOM formattingf*/
+
+.header {
+  margin: 10px 0 0 0;
+}
+
+.featured-work {
+  margin: 50px 0 0 0;
+}
