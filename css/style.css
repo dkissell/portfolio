@@ -1,6 +1,6 @@
 @media only screen and (min-width : 1200px) {
   .container {
-    width: 980px;
+    width: 960px;
   }
 }
 /* Typography */
@@ -8,7 +8,8 @@ h1,
 h2,
 h3,
 h4,
-a {
+a,
+p {
   font-family: 'Lato', Helvetica, sans-serif;
 }
 
@@ -34,8 +35,14 @@ h4 {
   font-size: 1em;
 }
 
-a  {
+a {
   color: #bcbbbb;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #5F5F5F;
 }
 
 hr {
@@ -43,10 +50,20 @@ hr {
 }
 /* DOM formattingf*/
 
+body {
+  background: url(/images/concrete_seamless.png) repeat 0 0;
+}
+
 .header {
   margin: 10px 0 0 0;
 }
 
 .featured-work {
   margin: 50px 0 0 0;
+}
+
+footer {
+  padding: 10px 0 0;
+  margin:20px 0 0;
+  background-color: #E49234;
 }
